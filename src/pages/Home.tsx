@@ -51,7 +51,7 @@ export function Home() {
   return (
     <main className="w-full overflow-hidden">
       {/* HERO SECTION */}
-      <section className="relative min-h-[90vh] flex items-center pt-28 pb-40 md:pb-44 bg-hero-pattern bg-cover bg-center bg-no-repeat bg-fixed">
+      <section className="relative min-h-[90vh] flex items-center pt-28 pb-72 md:pb-44 bg-hero-pattern bg-cover bg-center bg-no-repeat bg-fixed">
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="max-w-3xl">
             <motion.div
@@ -99,14 +99,14 @@ export function Home() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   to="/"
-                  className="bg-secondary text-primary font-bold font-poppins px-8 py-4 rounded-sm hover:bg-yellow-400 transition-colors text-center text-lg shadow-lg shadow-secondary/20 flex items-center justify-center gap-2 group">
+                  className="w-full sm:w-auto bg-secondary text-primary font-bold font-poppins px-8 py-4 rounded-sm hover:bg-yellow-400 transition-colors text-center text-lg shadow-lg shadow-secondary/20 flex items-center justify-center gap-2 group">
                   
                   Get a Free Quote
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <Link
                   to="/services"
-                  className="bg-white/10 backdrop-blur-md text-white border border-white/30 font-bold font-poppins px-8 py-4 rounded-sm hover:bg-white/20 transition-colors text-center text-lg">
+                  className="w-full sm:w-auto bg-white/10 backdrop-blur-md text-white border border-white/30 font-bold font-poppins px-8 py-4 rounded-sm hover:bg-white/20 transition-colors text-center text-lg">
                   
                   Our Services
                 </Link>
@@ -132,8 +132,8 @@ export function Home() {
           className="absolute bottom-0 left-0 right-0 bg-primary/95 backdrop-blur-md border-t border-white/10 py-6">
           
           <div className="container mx-auto px-4 md:px-6">
-            <div className="flex flex-wrap justify-between items-center gap-6 md:gap-12">
-              <div className="flex items-center gap-3">
+            <div className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-5 md:gap-12">
+              <div className="w-full md:w-auto flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-3">
                 <span className="text-secondary font-anton text-3xl">
                   {yearsOfExperience}+
                 </span>
@@ -144,7 +144,7 @@ export function Home() {
                 </span>
               </div>
               <div className="hidden md:block w-px h-10 bg-white/20"></div>
-              <div className="flex items-center gap-3">
+              <div className="w-full md:w-auto flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-3">
                 <span className="text-secondary font-anton text-3xl">10k+</span>
                 <span className="text-slate-300 font-poppins text-sm uppercase leading-tight">
                   installations
@@ -153,7 +153,7 @@ export function Home() {
                 </span>
               </div>
               <div className="hidden md:block w-px h-10 bg-white/20"></div>
-              <div className="flex items-center gap-3">
+              <div className="w-full md:w-auto flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-3">
                 <span className="text-secondary font-anton text-3xl">1MW</span>
                 <span className="text-slate-300 font-poppins text-sm uppercase leading-tight">
                   commercial
@@ -162,7 +162,7 @@ export function Home() {
                 </span>
               </div>
               <div className="hidden md:block w-px h-10 bg-white/20"></div>
-              <div className="flex items-center gap-3">
+              <div className="w-full md:w-auto flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-3">
                 <span className="text-secondary font-anton text-3xl">25+</span>
                 <span className="text-slate-300 font-poppins text-sm uppercase leading-tight">
                   training programs
