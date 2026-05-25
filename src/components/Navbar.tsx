@@ -36,7 +36,7 @@ export function Navbar() {
     path: '/'
   },
   {
-    name: 'About Us',
+    name: 'About',
     path: '/'
   },
   {
@@ -110,7 +110,7 @@ export function Navbar() {
     path: '/blog'
   },
   {
-    name: 'Contact Us',
+    name: 'Contact',
     path: '/'
   }];
 
