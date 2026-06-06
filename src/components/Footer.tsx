@@ -20,12 +20,12 @@ export function Footer() {
           <div>
             <Link
               to="/"
-              className="inline-flex items-center bg-white rounded-xl px-4 py-2 mb-6 border-2 border-secondary shadow-lg hover:shadow-secondary/20 hover:scale-[1.02] transition-all duration-300">
+              className="inline-flex items-center rounded-xl px-4 py-2 mb-6  shadow-lg hover:shadow-secondary/20 hover:scale-[1.02] transition-all duration-300">
               
               <img
-                src="/IMG_1599.JPG.jpg"
+                src="./embrace-footer-logo.png"
                 alt="Embrace Technologies"
-                className="h-20 w-auto object-contain" />
+                className="h-20 w-auto object-contain  rounded-[20px]" />
               
             </Link>
             <p className="text-slate-300 font-montserrat text-sm leading-relaxed mb-6">
@@ -165,10 +165,16 @@ export function Footer() {
                     +234 706 145 1583
                   </a>
                   <a
-                    href="tel:+2349083688389"
+                    href="tel:+2348078954388"
                     className="hover:text-secondary transition-colors">
                     
-                    +234 908 368 8389
+                    +234 807 8954388
+                  </a>
+                  <a
+                    href="tel:+2349110152566"
+                    className="hover:text-secondary transition-colors">
+                    
+                    +234 911 015 2566
                   </a>
                 </div>
               </li>

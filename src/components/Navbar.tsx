@@ -37,18 +37,18 @@ export function Navbar() {
   },
   {
     name: 'About',
-    path: '/'
+    path: '/about'
   },
   {
     name: 'Services',
     path: '/services',
     children: [
     {
-      name: 'Hybrid Solar System',
+      name: 'Hybrid Solar Systems',
       path: '/services'
     },
     {
-      name: 'CCTV & Surveillance',
+      name: 'CCTV Surveillance systems',
       path: '/services'
     },
     {
@@ -70,7 +70,7 @@ export function Navbar() {
     path: '/shop',
     children: [
     {
-      name: 'Hybrid Solar System',
+      name: 'Residential/SME Hybrid Solar Systems',
       path: '/shop/hybrid-solar-system'
     },
     {
@@ -110,8 +110,8 @@ export function Navbar() {
     path: '/blog'
   },
   {
-    name: 'Contact',
-    path: '/'
+    name: 'Contact Us',
+    path: '/contact'
   }];
 
   const isActive = (link: NavLink) => {
@@ -128,9 +128,9 @@ export function Navbar() {
           className="flex items-center group rounded-xl border-2 border-slate-100 bg-white px-2 py-1 shadow-sm hover:border-secondary hover:shadow-md transition-all duration-300">
           
           <img
-            src="/IMG_1599.JPG.jpg"
+            src="./embrace-logo.jpg"
             alt="Embrace Technologies"
-            className="h-12 md:h-14 w-36 md:w-44 object-contain transition-transform duration-300 group-hover:scale-105" />
+            className="h-12 md:h-14 w-36 rounded-[20px] md:w-44 object-contain transition-transform duration-300 group-hover:scale-105" />
           
         </Link>
 

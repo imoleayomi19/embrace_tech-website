@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { Home } from './pages/Home';
 import { Services } from './pages/Services';
+import { About } from './pages/About';
 export function App() {
   return (
     <Router>
@@ -12,6 +13,7 @@ export function App() {
         <div className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
           </Routes>
         </div>

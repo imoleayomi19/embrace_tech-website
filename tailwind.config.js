@@ -11,6 +11,8 @@ export default {
         primary: '#002060',
         secondary: '#FFC759',
         alternative: '#066906',
+        alternativeO: '#EA6936',
+        alternativeR: '#EE373D',
       },
       fontFamily: {
         anton: ['Anton', 'sans-serif'],
